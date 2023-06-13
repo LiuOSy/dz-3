@@ -1,0 +1,55 @@
+{
+	"group": [{
+			"firstName": "Mary",
+			"lastName": "Smith",
+			"age": 18,
+			"rating": 1,
+			"averageScore": 5.00,
+			"subjectScore": {
+				"math": 5,
+				"english": 5,
+				"history": 5,
+				"law": 5
+			},
+			"isBudget": "true",
+			"phoneNumber": "+380671234567",
+			"email": "mary.smith@test.com",
+			"address": [{
+					"zipCode": 12345,
+					"country": "TestCountry",
+					"city": "TestCity",
+					"street": "TestStreet1",
+					"building": "123A"
+				},
+				{
+					"zipCode": 54321,
+					"country": "TestCountry",
+					"city": "TestCity",
+					"street": "TestStreet2",
+					"building": "234B"
+				}
+
+			]
+
+		},
+
+		{
+			"firstName": "John",
+			"lastName": "Peters",
+			"age": 18,
+			"rating": 2,
+			"averageScore": 4.75,
+			"subjectScore": [5, 5, 4, 5],
+			"isBudget": "false",
+			"phoneNumber": "+380951234567",
+			"email": "john.peters@test.com",
+			"address": {
+				"zipCode": 12345,
+				"country": "TestCountry",
+				"city": "TestCity",
+				"street": "TestStreet1",
+				"building": "321"
+			}
+		}
+	]
+}

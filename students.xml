@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group>
+    <student>
+        <firstName>Mary</firstName>
+        <lastName>Smith</lastName>
+        <age>18</age>
+        <rating>1</rating>
+        <averageScore>5.00</averageScore>
+        <subjectScore>
+            <math>5</math>
+            <english>5</english>
+            <history>5</history>
+            <law>5</law>
+        </subjectScore>
+        <isBudget>True</isBudget>
+        <phoneNumber>+380671234567</phoneNumber>
+        <email>mary.smith@test.com</email>
+        <addresses>
+            <address zipCode="12345" country="TestCountry" city="TestCity" street="TestStreet1" building="123A" />
+            <address zipCode="54321" country="TestCountry" city="TestCity" street="TestStreet2" building="234B" />
+        </addresses>
+    </student>
+    <student>
+        <firstName>John</firstName>
+        <lastName>Peters</lastName>
+        <age>18</age>
+        <rating>2</rating>
+        <averageScore>4.75</averageScore>
+        <subjectScore>
+            <math>5</math>
+            <english>5</english>
+            <history>4</history>
+            <law>5</law>
+        </subjectScore>
+        <isBudget>False</isBudget>
+        <phoneNumber>+380951234567</phoneNumber>
+        <email>john.peters@test.com</email>
+        <address>
+            <zipCode>12345</zipCode>
+            <country>TestCountry</country>
+            <city>TestCity</city>
+            <street>TestStreet</street>
+            <building>321</building>
+        </address>
+    </student>
+</group>
